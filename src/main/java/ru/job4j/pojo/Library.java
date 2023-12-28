@@ -2,6 +2,7 @@ package ru.job4j.pojo;
 
 public class Library {
     public static void main(String[] args) {
+
         Book book = new Book("Book", 100);
         Book book1 = new Book("Book1", 200);
         Book book2 = new Book("Book2", 300);
