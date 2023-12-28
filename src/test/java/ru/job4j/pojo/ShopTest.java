@@ -8,6 +8,7 @@ class ShopTest {
 
     @Test
     void whenLastNull() {
+
         Product[] products = new Product[5];
         products[0] = new Product("Milk", 10);
         products[1] = new Product("Bread", 4);
