@@ -30,7 +30,7 @@ public class Library {
 
         for (int i = 0; i < books.length; i++) {
             Book publication = books[i];
-            if (publication.getName().equals("Clean code")) {
+            if ("Clean code".equals(publication.getName())) {
                 System.out.println(publication.getName() + " - " + publication.getCount());
             }
         }
