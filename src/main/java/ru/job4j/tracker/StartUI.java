@@ -7,11 +7,9 @@ public class StartUI {
         boolean run = true;
         while (run) {
             showMenu();
-            System.out.print("Выбрать: ");
             int select =  input.askInt("Выбрать: ");
             if (select == 0) {
                 System.out.println("===Создание новой заявки===");
-                System.out.print("Введите имя: ");
                 String name = input.askStr("Введите имя: ");
                 Item item = new Item(name);
                 tracker.add(item);
@@ -28,7 +26,6 @@ public class StartUI {
                 }
             } else if (select == 2) {
                 System.out.println("===Edit item:=== ");
-                System.out.print("Enter id");
                 int id = input.askInt("Enter id");
                 String name = input.askStr("Enter  name: ");
                 Item item = new Item(name);
