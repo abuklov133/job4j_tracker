@@ -16,4 +16,5 @@ public class Bus implements Transport {
         double price = 100;
         return fuel * price;
     }
+
 }
