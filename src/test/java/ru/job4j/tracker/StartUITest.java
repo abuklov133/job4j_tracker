@@ -27,7 +27,6 @@ class StartUITest {
         StartUI.replaceItem(new MockInput(answers), tracker);
         Item edited = tracker.findById(item.getId());
         assertThat(edited.getName()).isEqualTo("edited item");
-
     }
 
     @Test
@@ -40,6 +39,5 @@ class StartUITest {
         Item expected = null;
         Item actual = tracker.findById(item.getId());
         assertEquals(expected, actual);
-
     }
 }
