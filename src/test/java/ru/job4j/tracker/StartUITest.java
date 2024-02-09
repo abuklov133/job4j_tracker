@@ -26,7 +26,7 @@ class StartUITest {
         String[] answers = {String.valueOf(item.getId()), "edited item"};
         StartUI.replaceItem(new MockInput(answers), tracker);
         Item edited = tracker.findById(item.getId());
-        assertThat(edited.getName()).isEqualTo("edited item")Ж
+        assertThat(edited.getName()).isEqualTo("edited item");
 
     }
 
