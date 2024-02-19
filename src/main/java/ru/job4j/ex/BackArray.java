@@ -12,10 +12,4 @@ public class BackArray {
         }
         return names;
     }
-
-    public static void main(String[] args) {
-        String[] names = {"A", "B", "C", "D"};
-        String[] newNames = BackArray.turn(names);
-        System.out.println(Arrays.toString(newNames));
-    }
 }

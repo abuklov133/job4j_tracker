@@ -3,7 +3,6 @@ package ru.job4j.ex;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class BackArrayTest {
     @Test
@@ -21,5 +20,4 @@ class BackArrayTest {
         String[] expected = {"Vasya", "Nik", "Andrey", "Ivan", "Petr"};
         assertThat(result).isEqualTo(expected);
     }
-
 }
